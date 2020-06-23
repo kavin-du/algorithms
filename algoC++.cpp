@@ -3,7 +3,9 @@
 
 ///// prime check
 
-arr.erase(unique(arr.begin(),arr.end()),arr.end()) - This erases the duplicate occurrences in sorted vector 
+// sort first before remove duplicates
+sort(arr.begin(), arr.end())
+arr.erase(unique(arr.begin(),arr.end()),arr.end()) - This erases the duplicate occurrences in /*sorted*/ vector 
 
 #define <cmath>
 
